@@ -25,13 +25,13 @@
   </div>
 
   {{#if blogs.length}}
-  <div class="col-md-6 blog-list justify-content-center text-center">
+  <div class="col-md-6 blog-list justify-content-center text-center my-4">
     <h3>Current blogs:</h3>
 
     {{#each blogs as |blog|}}
-    <div class="row mb-2">
+    <div class="row mb-2 mt-4">
       <div class="col-md-8">
-        <h4><a class="text-secondary" href="/blog/{{blog.id}}">{{blog.name}}</a></h4>
+        <h4><a class="text-secondary border py-2 my-2 px-2 mx-2" style="text-decoration: none;" href="/blog/{{blog.id}}">{{blog.name}}</a></h4>
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{blog.id}}">DELETE</button>
