@@ -1,0 +1,17 @@
+[
+  {
+    "name": "The new MacBook Pro",
+    "description": "The new MacBook Pro combines cutting-edge performance with an incredibly sleek design, setting a new benchmark for power and portability in the laptop world. "
+    
+  },
+  {
+    "name": "The Ultimate Tech Quiz",
+    "description": "The online tech quiz offers an engaging platform for users to test their knowledge across various technological domains, providing an interactive learning experience and an opportunity to challenge oneself in the ever-evolving world of technology."
+    
+  },
+  {
+    "name": "JS or Python?",
+    "description": "Which programming language is the best to learn first as a beginner? Should it be JS, Python or C++?"
+    
+  }
+]
