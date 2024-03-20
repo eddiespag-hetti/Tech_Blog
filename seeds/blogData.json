@@ -1,11 +1,15 @@
 [
   {
+    "name" : "What is does your favorite video-game say about you?",
+    "description": "Your favorite video game can offer profound insights into your personality and interests. For example, if you're drawn to strategy games like Civilization or Age of Empires, you likely possess a strategic mindset and enjoy long-term planning."
+  },
+  {
     "name": "The new MacBook Pro",
     "description": "The new MacBook Pro combines cutting-edge performance with an incredibly sleek design, setting a new benchmark for power and portability in the laptop world. "
     
   },
   {
-    "name": "The Ultimate Tech Quiz",
+    "name": "Have you tried the latest quiz?",
     "description": "The online tech quiz offers an engaging platform for users to test their knowledge across various technological domains, providing an interactive learning experience and an opportunity to challenge oneself in the ever-evolving world of technology."
     
   },

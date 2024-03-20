@@ -1,5 +1,10 @@
 [
   {
+    "name": "Eddie",
+    "email": "eddie@email.com",
+    "password": "eddie1234"
+  },
+  {
     "name": "Sal",
     "email": "sal@hotmail.com",
     "password": "password12345"
@@ -13,10 +18,5 @@
     "name": "Amiko",
     "email": "amiko2k20@aol.com",
     "password": "password12345"
-  },
-  {
-    "name": "Eddie",
-    "email": "eddie@email.com",
-    "password": "eddie1234"
   }
 ]
