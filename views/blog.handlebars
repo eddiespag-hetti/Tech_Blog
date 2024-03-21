@@ -8,7 +8,7 @@
       <div class="row justify-content-end"> <!-- Use justify-content-end class to align content to the right -->
         <div class="col-auto"> <!-- Use col-auto class to allow the button to take up only the necessary space -->
           <div class="comment-box">
-            <button class="btn btn-warning text-dark" id="comment-btn">Leave Comment</button>
+            <button class="btn btn-custom-color" id="comment-btn">Leave Comment</button>
           </div>
         </div>
       </div>
@@ -16,24 +16,13 @@
   </div>
 </div>
 
-
-
-
-
-
-
-{{!-- <div class="container mt-5"> 
-<div class="card">
-  <div class="card-body text-center">
-  <h5 ></h5>
-  <p class="mt-5">Created by {{user.name}} on {{format_date date_created}}</p>
-  <h2 class="mb-4">{{name}}</h2>
-  <p class="mb-4">{{description}}</p>
-  <div class="comment-box">
-<button class="btn btn-primary text-light" id="comment-btn">Leave Comment
-
-</button>
- </div>
- </div>
+<div class="container mt-3">
+  <div class="row justify-content-start">
+    <div class="col-auto">
+      <a class="btn btn-custom-color" href="/profile">Back to Profile</a>
+    </div>
   </div>
-</div> --}}
+</div>
+
+
+<script src="/js/comment.js"></script>

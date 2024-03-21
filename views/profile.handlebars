@@ -1,10 +1,10 @@
-<div class="row">
+<div class="row justify-content-center">
   <div class="col-auto px-5 mx-5 py-4">
     <h2>Welcome, {{name}}!</h2>
   </div>
 </div>
 
-<div class="row mt-4">
+<div class="row mt-4 justify-content-center">
   <div class="col-md-6 px-5 mx-5">
     <h3>Create a New Blog:</h3>
 
@@ -19,18 +19,18 @@
         <textarea class="form-control" id="blog-desc" name="blog-desc"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-warning mt-2">Create</button>
+        <button type="submit" class="btn btn-secondary mt-2">Create</button>
       </div>
     </form>
   </div>
 </div>
 
  {{#if blogs.length}}
-<div class="container col-md-6 my-4">
+<div class="container col-md-6 my-4 pt-5">
   <div class="card">
     <div class="card-body">
       <h3 class="card-title text-center">Current Blogs:</h3>
-      <div class="list-group">
+      <div class="blog-list">
         {{#each blogs as |blog|}}
         <div class="list-group-item d-flex justify-content-between align-items-center">
           <a href="/blog/{{blog.id}}" class="text-secondary border py-2 px-3 my-2" style="text-decoration: none;">{{blog.name}}</a>

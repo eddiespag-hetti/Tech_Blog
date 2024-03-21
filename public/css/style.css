@@ -17,3 +17,12 @@ main {
 .bg-custom {
   background-color: #ffe9ab1a; 
 }
+
+.btn-custom-color {
+  background-color: #1e30ff6e; /* Custom color */
+  color: #000000; /* Text color */
+}
+
+.btn-custom-color:hover {
+  background-color: #2b0cc535; /* Custom color on hover */
+}
