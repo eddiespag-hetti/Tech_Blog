@@ -25,7 +25,7 @@ This is a full-stack web application built using Node.js, Express and Sequelize.
 
 To use this web application, you will need to navigate to the below link. Simply create an new account or login to your existing account:
 
-- https://byte-me-b440017a4d68.herokuapp.com/
+- (Heroku deployment here!)
 
 From the landing page you can view all the blog posts others have posted - 
 

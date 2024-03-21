@@ -23,23 +23,24 @@
       </div>
     </form>
   </div>
+</div>
 
-  {{#if blogs.length}}
-  <div class="col-md-6 blog-list justify-content-center text-center my-4">
-    <h3>Current blogs:</h3>
-
-    {{#each blogs as |blog|}}
-    <div class="row mb-2 mt-4">
-      <div class="col-md-8">
-        <h4><a class="text-secondary border py-2 my-2 px-2 mx-2" style="text-decoration: none;" href="/blog/{{blog.id}}">{{blog.name}}</a></h4>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{blog.id}}">DELETE</button>
+ {{#if blogs.length}}
+<div class="container col-md-6 my-4">
+  <div class="card">
+    <div class="card-body">
+      <h3 class="card-title text-center">Current Blogs:</h3>
+      <div class="list-group">
+        {{#each blogs as |blog|}}
+        <div class="list-group-item d-flex justify-content-between align-items-center">
+          <a href="/blog/{{blog.id}}" class="text-secondary border py-2 px-3 my-2" style="text-decoration: none;">{{blog.name}}</a>
+          <button class="btn btn-sm btn-danger" data-id="{{blog.id}}">DELETE</button>
+        </div>
+        {{/each}}
       </div>
     </div>
-    {{/each}}
   </div>
-  {{/if}}
 </div>
+{{/if}}
 
 <script src="/js/profile.js"></script>
