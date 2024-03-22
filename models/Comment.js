@@ -11,10 +11,7 @@ Comment.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+
     description: {
       type: DataTypes.STRING,
     },
@@ -31,7 +28,16 @@ Comment.init(
         key: 'id',
       },
     },
-  },
+
+    blog_id:
+    {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      },
+  }
+},
   {
     sequelize,
     timestamps: false,
