@@ -1,4 +1,3 @@
-// const { response } = require("express");
 console.log('aaaaaa');
 
 document.getElementById('comment-btn').addEventListener('click', async (event) => {
