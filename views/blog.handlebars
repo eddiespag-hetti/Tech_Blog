@@ -11,6 +11,14 @@
             <input id="comment-input">
             <button class="btn btn-custom-color" id="comment-btn">Leave Comment</button>
           </div>
+          <section>
+            <div>
+              {{#each comments as |comment|}}
+              <p>{{comment.description}}</p>
+              <p>Comment left by: {{comment.user.name}}</p>
+              {{/each}}
+            </div>
+          </section>
         </div>
       </div>
     </div>
